@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(28, 7, 68);
+    color: white;
+}
+
+.box {
+    border: 1px solid white;
+    margin: auto;
+    width: fit-content;
+    padding: 32px;
+    background-color: rgb(2, 6, 35);
+    border-radius: 8px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label > label {
+    margin-bottom: 8px;
+}
+
+input {
+    height: 32px;
+    padding: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 8px;
+
+}
+
+#output {
+    margin-top: 20px;
+}
